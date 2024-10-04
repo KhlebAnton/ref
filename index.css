@@ -467,7 +467,7 @@ align-items: center;
   background-size: cover;
   z-index: 9;
 }
-.rectangle-1e {
+.menu {
   position: fixed;
   width: 100%;
   height: 76px;
@@ -475,15 +475,19 @@ align-items: center;
   background: #1c1f24;
   z-index: 46;
   border-radius: 19px 19px 0 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px 10px;
+  gap: 23px;
 }
 .rectangle-1f {
-  position: absolute;
+  
   width: 64px;
   height: 58px;
   top: 3px;
   left: 50%;
   background: #006eff;
-  transform: translate(-105.47%, 0);
   z-index: 47;
   border-radius: 19px;
 }
@@ -506,7 +510,7 @@ align-items: center;
   z-index: 51;
 }
 .bold-essentional-ui {
-  position: absolute;
+  /* position: absolute; */
   width: 30px;
   height: 30px;
   top: 17px;
@@ -525,7 +529,6 @@ align-items: center;
   z-index: 49;
 }
 .bold-users-user {
-  position: absolute;
   width: 30px;
   height: 30px;
   top: 17px;
@@ -555,7 +558,6 @@ align-items: center;
   z-index: 54;
 }
 .bold-settings-fine {
-  position: absolute;
   width: 30px;
   height: 30px;
   top: 17px;
